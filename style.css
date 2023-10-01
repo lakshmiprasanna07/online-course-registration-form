@@ -1,0 +1,43 @@
+body{
+    color: rgb(246, 243, 243);
+    background: url('background_image.jpg')no-repeat;
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+}
+.main{
+    border: 2px solid white;
+    padding: 9px;
+    margin-left: 400px;
+    margin-right: 400px;
+    backdrop-filter: blur(10px);
+    border-radius: 20px;
+}
+#check{
+    margin-left:50px;
+}
+#gender{
+    margin-left: 75px;
+}
+#loc{
+    margin-left: -225px;
+}
+#html{
+    margin-top: 9px;
+    margin-left: -280px;
+}
+#css{
+    margin-left: -296px;
+}
+#js{
+    margin-left: -259px;
+}
+#py{
+    margin-left: -277px;
+}
+.area h3{
+    margin-left: -270px;
+}
+#address{
+    margin-left: 15px;
+}

@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>regitration page</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="main">
+        <h2><u>Online Course Registration</u></h2>
+        <form action="" style="margin-top: 40px;" class="form1">
+                <label for="fname" ><b>FirstName :</b></label>
+                <input type="text" id="fname" style="margin-left:40px; border:2px solid rgb(95, 95, 95); border-radius:6px; padding:5px; width:200px"><br><br>
+                <label for="lname"><b>LastName :</b></label>
+                <input type="text" id="lname" style="margin-left:43px; border:2px solid rgb(95, 95, 95); border-radius:6px; padding:5px; width:200px"><br><br>
+                <label for="phone"><b>Mobile Number:</b></label>
+                <input type="number" id="phone" minlength="10" maxlength="10" style="margin-left:9px; border:2px solid rgb(95, 95, 95); border-radius:6px; padding:5px; width:200px"><br><br>
+                <label for="mail"><b>Email :</b></label>
+                <input type="email" id="mail" style="margin-left:73px; border:2px solid rgb(95, 95, 95); border-radius:6px; padding:5px; width:200px"><br><br>
+                <label for="bd"><b>Birth Date:</b></label>
+                <input type="date" id="bd" style="margin-left:45px; width:167px;border:2px solid rgb(95, 95, 95); border-radius:6px; padding:5px; width:200px"><br><br>
+                <label for="gender" ><b>Gender:</b></label>
+                <input type="radio" id="gender" name="gender" value="Male">
+                <label for="gender">Male</label>
+                <input type="radio" id="gender" name="gender" value="Female">
+                <label for="gender">Female</label><br><br>
+                <label for="loc" id="loc"><b>List of Courses:</b></label>
+                <div id="check">
+                    <input type="checkbox" id="html" value="html" name="lang">
+                    <label for="html">HTML</label><br>
+                    <input type="checkbox" id="css" value="css" name="lang">
+                    <label for="css">CSS</label><br>
+                    <input type="checkbox" id="js" value="js" name="lang">
+                    <label for="js">Javascript</label><br>
+                    <input type="checkbox" id="py" value="py" name="lang">
+                    <label for="py">Python</label><br><br>
+                </div>
+                <div class="area">
+                    <h3>Address</h3>
+                    <textarea name="Address" id="address" cols="45" rows="7" style="border: 3px solid rgb(82, 80, 80);"></textarea>
+                </div><br>
+                <div id="pass">
+                    <label for="pass"><b>Password :</b></label>
+                    <input type="password" id="pass" minlength="6" style="margin-left:63px;border:2px solid rgb(95, 95, 95); border-radius:6px; padding:5px; width:200px"><br><br>
+                    <label for="pass"><b>Re-enter Password :</b></label>
+                    <input type="password" id="pass" minlength="6" style="border:2px solid rgb(95, 95, 95); border-radius:6px; padding:5px; width:200px">
+                </div><br><br>
+                <div id="submit" style="margin-left: 70px;">
+                    <label for="submit"></label>
+                    <input type="submit" id="submit" style="width: 100px; margin-right:40px; margin-left:-60px;font-weight:700;cursor:pointer">
+                    <label for="reset"></label>
+                    <input type="reset" id="reset" style="width: 100px;margin-left:12px; font-weight:700;cursor:pointer">
+                </div>
+        </form>
+    </div>
+</body>
+</html>
